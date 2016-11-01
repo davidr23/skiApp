@@ -14,6 +14,7 @@
 		30247D461DC8CDCB003CAFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30247D441DC8CDCB003CAFD3 /* LaunchScreen.storyboard */; };
 		30247D511DC8CDCB003CAFD3 /* SkiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30247D501DC8CDCB003CAFD3 /* SkiAppTests.swift */; };
 		30247D5C1DC8CDCB003CAFD3 /* SkiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30247D5B1DC8CDCB003CAFD3 /* SkiAppUITests.swift */; };
+		30247D6A1DC8CF54003CAFD3 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 30247D691DC8CF54003CAFD3 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		30247D571DC8CDCB003CAFD3 /* SkiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30247D5B1DC8CDCB003CAFD3 /* SkiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiAppUITests.swift; sourceTree = "<group>"; };
 		30247D5D1DC8CDCB003CAFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30247D691DC8CF54003CAFD3 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../Downloads/images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				30247D3B1DC8CDCB003CAFD3 /* AppDelegate.swift */,
 				30247D3D1DC8CDCB003CAFD3 /* ViewController.swift */,
+				30247D691DC8CF54003CAFD3 /* images.jpeg */,
 				30247D3F1DC8CDCB003CAFD3 /* Main.storyboard */,
 				30247D421DC8CDCB003CAFD3 /* Assets.xcassets */,
 				30247D441DC8CDCB003CAFD3 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30247D461DC8CDCB003CAFD3 /* LaunchScreen.storyboard in Resources */,
+				30247D6A1DC8CF54003CAFD3 /* images.jpeg in Resources */,
 				30247D431DC8CDCB003CAFD3 /* Assets.xcassets in Resources */,
 				30247D411DC8CDCB003CAFD3 /* Main.storyboard in Resources */,
 			);
@@ -413,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
