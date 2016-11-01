@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30247D3C1DC8CDCB003CAFD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30247D3B1DC8CDCB003CAFD3 /* AppDelegate.swift */; };
+		30247D3E1DC8CDCB003CAFD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30247D3D1DC8CDCB003CAFD3 /* ViewController.swift */; };
+		30247D411DC8CDCB003CAFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30247D3F1DC8CDCB003CAFD3 /* Main.storyboard */; };
+		30247D431DC8CDCB003CAFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30247D421DC8CDCB003CAFD3 /* Assets.xcassets */; };
+		30247D461DC8CDCB003CAFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30247D441DC8CDCB003CAFD3 /* LaunchScreen.storyboard */; };
+		30247D511DC8CDCB003CAFD3 /* SkiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30247D501DC8CDCB003CAFD3 /* SkiAppTests.swift */; };
+		30247D5C1DC8CDCB003CAFD3 /* SkiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30247D5B1DC8CDCB003CAFD3 /* SkiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30247D4D1DC8CDCB003CAFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30247D301DC8CDCB003CAFD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30247D371DC8CDCB003CAFD3;
+			remoteInfo = SkiApp;
+		};
+		30247D581DC8CDCB003CAFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30247D301DC8CDCB003CAFD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30247D371DC8CDCB003CAFD3;
+			remoteInfo = SkiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30247D381DC8CDCB003CAFD3 /* SkiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30247D3B1DC8CDCB003CAFD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30247D3D1DC8CDCB003CAFD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30247D401DC8CDCB003CAFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30247D421DC8CDCB003CAFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30247D451DC8CDCB003CAFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30247D471DC8CDCB003CAFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30247D4C1DC8CDCB003CAFD3 /* SkiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30247D501DC8CDCB003CAFD3 /* SkiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiAppTests.swift; sourceTree = "<group>"; };
+		30247D521DC8CDCB003CAFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30247D571DC8CDCB003CAFD3 /* SkiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30247D5B1DC8CDCB003CAFD3 /* SkiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiAppUITests.swift; sourceTree = "<group>"; };
+		30247D5D1DC8CDCB003CAFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30247D351DC8CDCB003CAFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30247D491DC8CDCB003CAFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30247D541DC8CDCB003CAFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30247D2F1DC8CDCB003CAFD3 = {
+			isa = PBXGroup;
+			children = (
+				30247D3A1DC8CDCB003CAFD3 /* SkiApp */,
+				30247D4F1DC8CDCB003CAFD3 /* SkiAppTests */,
+				30247D5A1DC8CDCB003CAFD3 /* SkiAppUITests */,
+				30247D391DC8CDCB003CAFD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30247D391DC8CDCB003CAFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30247D381DC8CDCB003CAFD3 /* SkiApp.app */,
+				30247D4C1DC8CDCB003CAFD3 /* SkiAppTests.xctest */,
+				30247D571DC8CDCB003CAFD3 /* SkiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30247D3A1DC8CDCB003CAFD3 /* SkiApp */ = {
+			isa = PBXGroup;
+			children = (
+				30247D3B1DC8CDCB003CAFD3 /* AppDelegate.swift */,
+				30247D3D1DC8CDCB003CAFD3 /* ViewController.swift */,
+				30247D3F1DC8CDCB003CAFD3 /* Main.storyboard */,
+				30247D421DC8CDCB003CAFD3 /* Assets.xcassets */,
+				30247D441DC8CDCB003CAFD3 /* LaunchScreen.storyboard */,
+				30247D471DC8CDCB003CAFD3 /* Info.plist */,
+			);
+			path = SkiApp;
+			sourceTree = "<group>";
+		};
+		30247D4F1DC8CDCB003CAFD3 /* SkiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				30247D501DC8CDCB003CAFD3 /* SkiAppTests.swift */,
+				30247D521DC8CDCB003CAFD3 /* Info.plist */,
+			);
+			path = SkiAppTests;
+			sourceTree = "<group>";
+		};
+		30247D5A1DC8CDCB003CAFD3 /* SkiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30247D5B1DC8CDCB003CAFD3 /* SkiAppUITests.swift */,
+				30247D5D1DC8CDCB003CAFD3 /* Info.plist */,
+			);
+			path = SkiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30247D371DC8CDCB003CAFD3 /* SkiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30247D601DC8CDCB003CAFD3 /* Build configuration list for PBXNativeTarget "SkiApp" */;
+			buildPhases = (
+				30247D341DC8CDCB003CAFD3 /* Sources */,
+				30247D351DC8CDCB003CAFD3 /* Frameworks */,
+				30247D361DC8CDCB003CAFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkiApp;
+			productName = SkiApp;
+			productReference = 30247D381DC8CDCB003CAFD3 /* SkiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30247D4B1DC8CDCB003CAFD3 /* SkiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30247D631DC8CDCB003CAFD3 /* Build configuration list for PBXNativeTarget "SkiAppTests" */;
+			buildPhases = (
+				30247D481DC8CDCB003CAFD3 /* Sources */,
+				30247D491DC8CDCB003CAFD3 /* Frameworks */,
+				30247D4A1DC8CDCB003CAFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30247D4E1DC8CDCB003CAFD3 /* PBXTargetDependency */,
+			);
+			name = SkiAppTests;
+			productName = SkiAppTests;
+			productReference = 30247D4C1DC8CDCB003CAFD3 /* SkiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30247D561DC8CDCB003CAFD3 /* SkiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30247D661DC8CDCB003CAFD3 /* Build configuration list for PBXNativeTarget "SkiAppUITests" */;
+			buildPhases = (
+				30247D531DC8CDCB003CAFD3 /* Sources */,
+				30247D541DC8CDCB003CAFD3 /* Frameworks */,
+				30247D551DC8CDCB003CAFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30247D591DC8CDCB003CAFD3 /* PBXTargetDependency */,
+			);
+			name = SkiAppUITests;
+			productName = SkiAppUITests;
+			productReference = 30247D571DC8CDCB003CAFD3 /* SkiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30247D301DC8CDCB003CAFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = davidr;
+				TargetAttributes = {
+					30247D371DC8CDCB003CAFD3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					30247D4B1DC8CDCB003CAFD3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30247D371DC8CDCB003CAFD3;
+					};
+					30247D561DC8CDCB003CAFD3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30247D371DC8CDCB003CAFD3;
+					};
+				};
+			};
+			buildConfigurationList = 30247D331DC8CDCB003CAFD3 /* Build configuration list for PBXProject "SkiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30247D2F1DC8CDCB003CAFD3;
+			productRefGroup = 30247D391DC8CDCB003CAFD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30247D371DC8CDCB003CAFD3 /* SkiApp */,
+				30247D4B1DC8CDCB003CAFD3 /* SkiAppTests */,
+				30247D561DC8CDCB003CAFD3 /* SkiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30247D361DC8CDCB003CAFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30247D461DC8CDCB003CAFD3 /* LaunchScreen.storyboard in Resources */,
+				30247D431DC8CDCB003CAFD3 /* Assets.xcassets in Resources */,
+				30247D411DC8CDCB003CAFD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30247D4A1DC8CDCB003CAFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30247D551DC8CDCB003CAFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30247D341DC8CDCB003CAFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30247D3E1DC8CDCB003CAFD3 /* ViewController.swift in Sources */,
+				30247D3C1DC8CDCB003CAFD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30247D481DC8CDCB003CAFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30247D511DC8CDCB003CAFD3 /* SkiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30247D531DC8CDCB003CAFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30247D5C1DC8CDCB003CAFD3 /* SkiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30247D4E1DC8CDCB003CAFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30247D371DC8CDCB003CAFD3 /* SkiApp */;
+			targetProxy = 30247D4D1DC8CDCB003CAFD3 /* PBXContainerItemProxy */;
+		};
+		30247D591DC8CDCB003CAFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30247D371DC8CDCB003CAFD3 /* SkiApp */;
+			targetProxy = 30247D581DC8CDCB003CAFD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30247D3F1DC8CDCB003CAFD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30247D401DC8CDCB003CAFD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30247D441DC8CDCB003CAFD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30247D451DC8CDCB003CAFD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30247D5E1DC8CDCB003CAFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30247D5F1DC8CDCB003CAFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30247D611DC8CDCB003CAFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		30247D621DC8CDCB003CAFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		30247D641DC8CDCB003CAFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkiApp.app/SkiApp";
+			};
+			name = Debug;
+		};
+		30247D651DC8CDCB003CAFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkiApp.app/SkiApp";
+			};
+			name = Release;
+		};
+		30247D671DC8CDCB003CAFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SkiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkiApp;
+			};
+			name = Debug;
+		};
+		30247D681DC8CDCB003CAFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SkiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davidr.SkiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30247D331DC8CDCB003CAFD3 /* Build configuration list for PBXProject "SkiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30247D5E1DC8CDCB003CAFD3 /* Debug */,
+				30247D5F1DC8CDCB003CAFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30247D601DC8CDCB003CAFD3 /* Build configuration list for PBXNativeTarget "SkiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30247D611DC8CDCB003CAFD3 /* Debug */,
+				30247D621DC8CDCB003CAFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30247D631DC8CDCB003CAFD3 /* Build configuration list for PBXNativeTarget "SkiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30247D641DC8CDCB003CAFD3 /* Debug */,
+				30247D651DC8CDCB003CAFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30247D661DC8CDCB003CAFD3 /* Build configuration list for PBXNativeTarget "SkiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30247D671DC8CDCB003CAFD3 /* Debug */,
+				30247D681DC8CDCB003CAFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30247D301DC8CDCB003CAFD3 /* Project object */;
+}
